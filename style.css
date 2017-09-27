@@ -11,10 +11,10 @@
   background-image: url(images/abstract.jpeg);
   padding: 300px;
   border-clip: padding-box;
+  transition-duration: 300ms;
 }
 
 .border-img:hover {
-  transition-duration: 300s;
   padding: 400px;
 }
 
@@ -23,8 +23,9 @@
   overflow-wrap: break-word;
   background: darkgray;
   color: red;
+}
 
-  .gradient {
+.gradient {
     width: 200px;
     height: 200px;
     background-color: red;
@@ -34,7 +35,7 @@
     border-image: linear-gradient(gray,black,red);
   }
 
-}
+
 
 .box{
   text-decoration: none;
