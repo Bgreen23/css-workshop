@@ -13,11 +13,26 @@
   border-clip: padding-box;
 }
 
+.border-img:hover {
+  transition-duration: 300s;
+  padding: 400px;
+}
+
 .wrap {
   width: 90px;
   overflow-wrap: break-word;
   background: darkgray;
   color: red;
+
+  .gradient {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    background: repeating-radial-gradient(rgba(225,225,225,0),red 30%);
+    border-width: 20px;
+    border-style: solid;
+    border-image: linear-gradient(gray,black,red);
+  }
 
 }
 
