@@ -4,3 +4,29 @@
   height: 50px;
   border-radius: 100%;
 }
+
+.border-img {
+  height: 240px;
+  width: 240px;
+  background-image: url(images/abstract.jpeg);
+  padding: 300px;
+  border-clip: padding-box;
+}
+
+.box{
+  text-decoration: none;
+  background-color:red;
+  width:200px;
+  height:200px;
+  margin: 50px;
+  border: 2px solid black;
+  display: inline-flex;
+  transition-duration: 500ms;
+}
+
+.box:hover{
+background-color: black;
+border: 2px solid red;
+display: inline-flex;
+padding: 50px;
+}
