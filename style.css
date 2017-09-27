@@ -35,7 +35,23 @@
     border-image: linear-gradient(gray,black,red);
   }
 
+.img-o {
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+}
 
+.img-o-half {
+  height: 200px;
+  width: 200px;
+  opacity: .5;
+}
+
+.img-o-quart {
+  height: 200px;
+  width: 200px;
+  opacity: .25;
+}
 
 .box{
   text-decoration: none;
