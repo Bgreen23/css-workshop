@@ -13,6 +13,14 @@
   border-clip: padding-box;
 }
 
+.wrap {
+  width: 90px;
+  overflow-wrap: break-word;
+  background: darkgray;
+  color: red;
+
+}
+
 .box{
   text-decoration: none;
   background-color:red;
